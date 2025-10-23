@@ -6,7 +6,7 @@ This framework is designed to tackle complex Multi-modal Question Answering (MMQ
 
 ## System Architecture
 
-The core pipeline of MUSIC is divided into two phases: **Offline Construction** and **Online Inference**.
+The core pipeline of MUSIC is divided into two phases: **Offline Processing** and **Online Inference**.
 
 ## Getting Started
 
