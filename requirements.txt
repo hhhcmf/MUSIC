@@ -1,0 +1,17 @@
+torch>=2.0
+torchvision>=0.15
+accelerate>=0.30
+transformers>=4.40
+sentence-transformers>=3.0
+peft>=0.11
+bitsandbytes>=0.45
+langchain>=0.3
+langchain-community>=0.3
+chromadb>=0.3
+fastapi>=0.100
+uvicorn>=0.27
+python-dotenv>=1.0
+tqdm>=4.60
+requests>=2.30
+numpy>=1.24
+pandas>=2.0

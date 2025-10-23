@@ -1,0 +1,35 @@
+datasets:
+  MMQA:
+    final_image_path: "/home/cmf/MMQA/final_dataset_images/"
+    image_path: "/home/cmf/MMQA/MMQA_images.jsonl/multimodalqa_final_dataset_pipeline_camera_ready_MMQA_images.jsonl"
+    text_path: "/home/cmf/MMQA/MMQA_texts.jsonl/multimodalqa_final_dataset_pipeline_camera_ready_MMQA_texts.jsonl"
+    table_path: "/home/cmf/MMQA/MMQA_tables.jsonl"
+    dev_path: "/home/cmf/MMQA/MMQA_dev.jsonl"
+    database: "/home/cmf/multiQA/data/MMQA/data/MMQA.db"
+    kg: "/home/cmf/multiQA/data/MMQA/data/kg.db"
+  WEBQA:
+    final_image_path: "/data2/lwh/WebQA/images/"
+    dev_path: "/home/cmf/multiQA/data/WebQA/WebQA_test.json"
+    image_path: "/data/cmf_dataset/WebQA/WebQA_test_image_facts_with_caption.jsonl"
+    text_path: "/data/cmf_dataset/WebQA/WebQA_test_text_facts.jsonl"
+    kg: "/home/cmf/multiQA/data/WebQA/data/kg.db"
+  ManymodalQA:
+    final_image_path: "/data/cmf_dataset/ManyModalQA/dev_images/"
+    dev_path: "/home/cmf/multiQA/data/ManymodalQA/data/official_aaai_split_dev_data.json"
+    image_path: "/data/cmf_dataset/ManyModalQA/ManyModalQA_dev_image_facts_with_caption.jsonl"
+    text_path: ""
+    table_path: "/data/cmf_dataset/ManyModalQA/ManyModalQA_dev_table_facts.jsonl"
+    kg: "/home/cmf/multiQA/data/ManymodalQA/data/kg.db"
+
+    
+database:
+  host: "localhost"
+  port: 5432
+  username: "user"
+  password: "password"
+  database_name: "mydatabase"
+
+user_settings:
+  theme: "dark"
+  notifications: true
+  language: "en"
